@@ -2,13 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Somting</title>
+    <title></title>
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>Hell world!</h1>
+    <div id="wrap">
+      <div class="clock">
+        <h1 class="title">00:00:00</h1>
+      </div>
 
-    <!-- 자바스크립트는 제일 아래 -->
+      <form class="jsform">
+        <input type="text" placeholder="What is your name?">
+      </form>
+      <h4 class="greetings"></h4>
+
+      <form class="jsToDoForm">
+        <input type="text" placeholder="Write a to do!">
+      </form>
+      <ul class="jsToDoList">
+      </ul>
+
+      <span class="jsWeather"></span>
+    </div>
+
     <script src="index.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>
