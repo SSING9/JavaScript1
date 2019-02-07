@@ -1,6 +1,7 @@
 #wrap{
   color: #ffffff;
   text-align: center;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 body{
@@ -9,15 +10,36 @@ body{
 
 .clock{
   font-size: 90px;
+
 }
 
 .greetings{
-  font-size: 50px;
-  background-color: #ff7675;
+  font-size: 60px;
 }
 
 .jsWeather{
   font-size: 30px;
+}
+
+input{
+  width: 300px;
+  height: 35px;
+  margin: 15px;
+}
+
+span{
+  font-size: 30px;
+  
+}
+
+ul{
+  list-style: none;
+}
+
+button{
+  color:#7f79f0;
+  background-color: #0b3bb6;
+
 }
 
 .jsform,.greetings{
